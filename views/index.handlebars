@@ -1,0 +1,18 @@
+<section class="form-sec">
+  <form action="/update" method="post">
+    <input type="text" name="task" required autofocus />
+    <input type="submit" value="Done" />
+  </form>
+</section>
+
+<section class="tasks-sec">
+  <h1>Tasks</h1>
+  <br /><br />
+  {{#each data}}
+    <div>
+      <h2>{{date}}</h2>
+      <br />
+      <p>{{task}}</p>
+    </div>
+  {{/each}}
+</section>
