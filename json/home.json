@@ -1,7 +1,4 @@
 {
   "style": "style.css",
-  "data": [
-    { "id": 1, "date": "4 March 2022", "task": "Sample Task" }
-  ],
-  "_locals": {}
+  "data": []
 }
